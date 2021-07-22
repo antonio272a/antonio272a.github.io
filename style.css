@@ -1,0 +1,16 @@
+body {
+    background-color: #80808070;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.observacoes {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.lista-de-habilidades, .lista-de-recomendacoes {
+    font-size: 0.9em;
+}
