@@ -1,14 +1,42 @@
 body {
     background-color: #80808070;
+    margin-left: 50px;
 }
 
 h1, h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.nome {
+    text-align: center;
+}
+
+.img-perfil {
+    height: 300px;
+    float: left;
+    margin: 0 30px 15px 0;
+    padding: 5px;
+    background-color: red;
+   
+}
+
+.descricao {
+    height: 300px;
+    margin-top: 60px;
+}
+
+
 .observacoes {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+}
+
+.lista-portfolio {
+    clear: left;
+}
+
+.lista-de-habilidades li:nth-child(2n+1) {
+    font-weight: 600;
 }
 
 .lista-de-habilidades, .lista-de-recomendacoes {
